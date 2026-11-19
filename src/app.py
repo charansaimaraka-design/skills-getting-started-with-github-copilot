@@ -18,7 +18,7 @@ app = FastAPI(title="Mergington High School API",
 current_dir = Path(__file__).parent
 app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
           "static")), name="static")
-
+#19-11-2026
 # In-memory activity database
 activities = {
     "Chess Club": {
